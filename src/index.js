@@ -44,11 +44,12 @@ function countryListMarkup(data) {
     <img
     src = "${country.flags.svg}"
     alt = "${country.name} flag" 
-    width = 25px
+    width = 150px 
     </img>
     <h2>${country.name.official}</h2>
     </li>`
-    );
+   )
+    .join('');
     
 }
 
@@ -58,12 +59,12 @@ function countryMarkup(data) {
     <li><img
     src = "${country.flags.svg}"
     alt = "${country.name} flag" 
-    width = 25px
+    width = 150px 
     </img></li>
-    <li><h2>${country.name.official}</h2></li>
-    <li>${country.capital}</li>
-    <li>${country.population}</li>
-    <li>${Object.values(country.languages)}</li>
+    <li><h2 class = country>${country.name.official}</h2></li>
+    <li class = name>${country.capital}</li>
+    <li class = pop>${country.population}</li>
+    <li class = lang>${Object.values(country.languages)}</li>
     </ul>`
     );
 }

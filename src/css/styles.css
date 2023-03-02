@@ -18,3 +18,80 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+
+  /*background-image: url("https://wallpapertag.com/wallpaper/full/9/1/4/136684-best-world-background-1920x1200-for-windows-10.jpg");*/
+body {background-image: url("https://wallpapertag.com/wallpaper/full/c/f/a/213719-world-background-2800x1867-for-macbook.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+input {
+  display: flex;
+  margin: auto;
+
+}
+li{
+  display: inline;
+}
+.country-list {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+  display: flex
+}
+
+img{
+      display: flex;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        margin: auto;
+}
+
+ul {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+h2{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: red;
+  text-shadow: 10px 10px 5px black;
+}
+.country{
+  margin-top: 5px;
+  background-color: lightblue;
+  border-radius: 10px;
+  
+}
+.name{
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 68, 0);
+  text-shadow: 10px 10px 10px black;
+
+}
+.pop {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: orangered;
+  text-shadow: 10px 10px 10px black;
+}
+.lang{
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: orangered;
+  text-shadow: 10px 10px 5px black;
+}
