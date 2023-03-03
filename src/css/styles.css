@@ -10,6 +10,9 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  background-image: url("https://wallpapertag.com/wallpaper/full/c/f/a/213719-world-background-2800x1867-for-macbook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #search-box {
@@ -19,21 +22,22 @@ body {
   margin-bottom: 16px;
 }
 
+/*background-image: url("https://wallpapertag.com/wallpaper/full/9/1/4/136684-best-world-background-1920x1200-for-windows-10.jpg");*/
 
-  /*background-image: url("https://wallpapertag.com/wallpaper/full/9/1/4/136684-best-world-background-1920x1200-for-windows-10.jpg");*/
-body {background-image: url("https://wallpapertag.com/wallpaper/full/c/f/a/213719-world-background-2800x1867-for-macbook.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-}
 
 input {
   display: flex;
   margin: auto;
-
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  text-align: center;
+  margin-top: 50px;
 }
+
 li{
   display: inline;
 }
+
 .country-list {
   list-style: none;
   padding: 0;
@@ -55,6 +59,7 @@ ul {
     flex-wrap: wrap;
     align-content: center;
     align-items: center;
+    padding: 0;
 }
 
 h2{
@@ -67,31 +72,40 @@ h2{
   color: red;
   text-shadow: 10px 10px 5px black;
 }
+
 .country{
   margin-top: 5px;
   background-color: lightblue;
   border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
   
 }
+
 .name{
   font-size: 1.5em;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: rgb(255, 68, 0);
   text-shadow: 10px 10px 10px black;
+  margin-top: 25px;
 
 }
+
 .pop {
   font-size: 1.2em;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: orangered;
   text-shadow: 10px 10px 10px black;
+  margin-top: 15px;
 }
+
 .lang{
   font-size: 1.2em;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: orangered;
   text-shadow: 10px 10px 5px black;
+  margin-top: 15px;
 }

@@ -62,9 +62,9 @@ function countryMarkup(data) {
     width = 150px 
     </img></li>
     <li><h2 class = country>${country.name.official}</h2></li>
-    <li class = name>${country.capital}</li>
-    <li class = pop>${country.population}</li>
-    <li class = lang>${Object.values(country.languages)}</li>
+    <li class = name>Capital: ${country.capital}</li>
+    <li class = pop>Population: ${country.population.toLocaleString("en-US")}</li>
+    <li class = lang>Languages: ${Object.values(country.languages)}</li>
     </ul>`
     );
 }
