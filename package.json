@@ -1,8 +1,8 @@
 {
-  "name": "parcel-project-template",
+  "name": "country-search",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/Shane-757/goit-js-hw-10",
+  "homepage": "https://shane-757.github.io/country-info-search/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-10/"
